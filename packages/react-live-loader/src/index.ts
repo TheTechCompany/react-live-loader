@@ -24,6 +24,7 @@ export const remoteToComponent = async (url: string) => {
 }
 
 export const codeToComponent = (component: string) => {
+    console.time("Compile component")
     const _requires = requires || defaultRequires;
     const exports : any = {}
     const module = {exports}
@@ -34,6 +35,7 @@ export const codeToComponent = (component: string) => {
     }catch(e){
         console.log("Error", e)
     }
+    console.timeEnd("Compile component")
     return module.exports;
 }
 

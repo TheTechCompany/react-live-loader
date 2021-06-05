@@ -62,6 +62,7 @@ var remoteToComponent = function (url) { return __awaiter(void 0, void 0, void 0
 }); };
 exports.remoteToComponent = remoteToComponent;
 var codeToComponent = function (component) {
+    console.time("Compile component");
     var _requires = requires || defaultRequires;
     var exports = {};
     var module = { exports: exports };
@@ -72,6 +73,7 @@ var codeToComponent = function (component) {
     catch (e) {
         console.log("Error", e);
     }
+    console.timeEnd("Compile component");
     return module.exports;
 };
 exports.codeToComponent = codeToComponent;

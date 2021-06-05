@@ -7,6 +7,7 @@ var ReactPreset = require('@babel/preset-react');
 var TypescriptPreset = require('@babel/preset-typescript');
 var compileComponent = function (code) {
     var _a;
+    console.log("Compiling..");
     var result = standalone_1.transform(code, {
         filename: 'component.tsx',
         presets: [
