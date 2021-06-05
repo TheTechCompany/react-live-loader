@@ -16,5 +16,5 @@ export const LiveComponent : React.FC<LiveComponentProps> = (props) => {
         }
     }, [props.code])
 
-    return Component && Component(props.props)
+    return Component ? Component(props.props) : <></>
 }
