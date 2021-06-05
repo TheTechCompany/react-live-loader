@@ -1,7 +1,6 @@
 const react = require('react')
 
-export {
-    resolve: {
+
+export const resolve = {
         react
-    }
 }

@@ -7,17 +7,18 @@
   "license": "ISC",
   "main": "src/index.ts",
   "directories": {
-    "lib": "lib",
+    "dist": "dist",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheTechCompany/react-live-loader.git"
   },
   "scripts": {
+    "build": "tsc -b .",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {

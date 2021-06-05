@@ -5,19 +5,20 @@
   "author": "Ross Leitch <professional.balbatross@gmail.com>",
   "homepage": "https://github.com/TheTechCompany/react-live-loader#readme",
   "license": "ISC",
-  "main": "lib/remote-loader.js",
+  "main": "src/index.tsx",
   "directories": {
-    "lib": "lib",
+    "dist": "dist",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheTechCompany/react-live-loader.git"
   },
   "scripts": {
+    "build": "tsc -b .",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
