@@ -20,5 +20,5 @@ export const RemoteComponent : React.FC<RemoteComponentProps> = (props) => {
         }
     }, [props.url])
    
-    return Component ? Component(props.props) : <></>;
+    return Component ? Component(props.props) : <div></div>;
 }

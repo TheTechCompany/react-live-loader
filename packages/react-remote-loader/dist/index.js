@@ -33,6 +33,6 @@ var RemoteComponent = function (props) {
             });
         }
     }, [props.url]);
-    return Component ? Component(props.props) : react_1.default.createElement(react_1.default.Fragment, null);
+    return Component ? Component(props.props) : react_1.default.createElement("div", null);
 };
 exports.RemoteComponent = RemoteComponent;
