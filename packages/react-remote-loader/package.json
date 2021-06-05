@@ -1,6 +1,6 @@
 {
   "name": "react-remote-loader",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "> TODO: description",
   "author": "Ross Leitch <professional.balbatross@gmail.com>",
   "homepage": "https://github.com/TheTechCompany/react-live-loader#readme",
@@ -29,6 +29,6 @@
     "react": "^17.0.2"
   },
   "dependencies": {
-    "react-live-loader": "^0.0.3"
+    "react-live-loader": "^0.0.4"
   }
 }
