@@ -3,7 +3,11 @@ import {createRequires} from "./utils/createRequires";
 import { resolve } from './config/remote.config'
 import { compileComponent } from "./compiler";
 
-export * from './component'
+import { LiveComponent } from './component'
+
+export {
+    LiveComponent
+}
 
 const requires = createRequires(() => resolve) 
 

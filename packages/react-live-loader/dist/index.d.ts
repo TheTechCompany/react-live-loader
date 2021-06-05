@@ -1,4 +1,5 @@
-export * from './component';
+import { LiveComponent } from './component';
+export { LiveComponent };
 export declare const remoteToComponent: (url: string) => Promise<string | undefined>;
 export declare const codeToComponent: (component: string) => any;
 export declare const rawToCode: (text: string) => string | undefined;
