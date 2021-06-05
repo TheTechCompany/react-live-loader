@@ -14,6 +14,6 @@ var RemoteComponent = function (props) {
             });
         }
     }, [props.url]);
-    return Component(props.props);
+    return Component && Component(props.props);
 };
 exports.RemoteComponent = RemoteComponent;

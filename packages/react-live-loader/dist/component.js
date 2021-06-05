@@ -11,6 +11,6 @@ var LiveComponent = function (props) {
             setComponent(component);
         }
     }, [props.code]);
-    return Component(props.props);
+    return Component && Component(props.props);
 };
 exports.LiveComponent = LiveComponent;
