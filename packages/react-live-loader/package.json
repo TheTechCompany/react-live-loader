@@ -1,0 +1,36 @@
+{
+  "name": "react-live-loader",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Ross Leitch <professional.balbatross@gmail.com>",
+  "homepage": "https://github.com/TheTechCompany/react-live-loader#readme",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheTechCompany/react-live-loader.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/TheTechCompany/react-live-loader/issues"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@babel/standalone": "^7.14.4"
+  },
+  "devDependencies": {
+    "@types/babel__standalone": "^7.1.3",
+    "@types/node": "^15.12.1"
+  }
+}

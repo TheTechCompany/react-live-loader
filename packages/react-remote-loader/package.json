@@ -1,0 +1,33 @@
+{
+  "name": "react-remote-loader",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Ross Leitch <professional.balbatross@gmail.com>",
+  "homepage": "https://github.com/TheTechCompany/react-live-loader#readme",
+  "license": "ISC",
+  "main": "lib/remote-loader.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheTechCompany/react-live-loader.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/TheTechCompany/react-live-loader/issues"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.9",
+    "react": "^17.0.2"
+  },
+  "dependencies": {
+    "react-live-loader": "^0.0.0"
+  }
+}
